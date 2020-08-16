@@ -1,0 +1,131 @@
+.dayContainer {
+    width: 375px;
+    height: 376px;
+    background-color: white;
+    position: relative;
+    bottom: 20px;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.headerCountry {
+    display: flex;
+    margin-left: auto;
+    width: 154px;
+    height: 48px;
+    background: rgba(13, 159, 234, 0.08);
+    color: #0DA0EA;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 20px 0 20px;
+}
+
+.row {
+    display: flex;
+    margin: 23px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.first_row {
+    margin:  23px 39px;
+}
+
+.rowValue {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.rowTextValue {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+}
+
+.col {
+    display: flex;
+    width: 70px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cloudySunBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+.sup {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.mainWeatherTemperature {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 40px;
+    margin-left: 19px;
+    margin-top: 10px;
+}
+
+.mainWeatherTemperaturePeriod {
+    margin-top: 23px;
+}
+
+.headerData {
+    width: 179px;
+    height: 17px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #999999;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.mainWeather{
+
+}
+
+.mainWeatherCards {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.weekDay {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.weekDayTemperature {
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+    text-align: center;
+    color: #999999;
+    margin-top: 5px;
+}
+
+.appDay {
+    margin: 80px 40px 0 40px;
+}

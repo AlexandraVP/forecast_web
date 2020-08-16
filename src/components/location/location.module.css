@@ -1,0 +1,95 @@
+.appLocation {
+    margin: 80px 40px 0 0;
+}
+
+.locationContainer {
+    width: 375px;
+    height: 630px;
+    padding: 20px;
+    background-color: white;
+    position: relative;
+    bottom: 275px;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.scrollable {
+    overflow-y: scroll;
+}
+
+.divider {
+    width: 100%;
+    border-bottom: 1px solid #999999;
+}
+
+.locationText {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #999999;
+}
+
+.locationInput {
+    background-color:  #F3F3F3;
+    align-self: center;
+    border-radius: 4px;
+    border: none;
+    width: 100%;
+    padding: 10px 15px;
+    margin-top: 30px;
+    line-height: 22px;
+    font-weight: 500;
+    font-family: Barlow;
+    font-size: 18px;
+}
+
+.locationInputText {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #444444;
+}
+
+.countriesList,
+.countriesListActive {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.remove {
+    visibility: hidden;
+    cursor: pointer;
+    user-select: none;
+    color: red;
+    display: block;
+    margin-left: 10px;
+    padding-bottom: 5px;
+}
+
+.countriesList:hover .remove {
+    visibility: visible;
+}
+
+.remove:hover sup {
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+.countriesList:hover,
+.countriesListActive {
+    background-color: #ECF7FD;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.countriesTemperature {
+    margin-left: auto;
+
+}

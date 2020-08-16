@@ -1,0 +1,13 @@
+body {
+    background-color: #E5E5E5;
+    font-family: "Barlow", serif;
+    font-style: normal;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: #E5E5E5;
+}
+
